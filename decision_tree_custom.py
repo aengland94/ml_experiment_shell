@@ -13,7 +13,8 @@ from sklearn.tree import DecisionTreeClassifier
 
 class DecisionTreeCustom(object):
     """
-    A Classifier that uses the k nearest neighbors 
+    A decision tree that can be used for classification or
+    regression problems
     """
     def __init__(self, max_depth=None, classifier=True):
         """
